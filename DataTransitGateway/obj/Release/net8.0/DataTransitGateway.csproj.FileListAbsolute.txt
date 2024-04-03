@@ -1,0 +1,7 @@
+E:\TesCryptoPro\GatewayConnector\DataTransitGateway\obj\Release\net8.0\DataTransitGateway.csproj.AssemblyReference.cache
+E:\TesCryptoPro\GatewayConnector\DataTransitGateway\obj\Release\net8.0\DataTransitGateway.GeneratedMSBuildEditorConfig.editorconfig
+E:\TesCryptoPro\GatewayConnector\DataTransitGateway\obj\Release\net8.0\DataTransitGateway.AssemblyInfoInputs.cache
+E:\TesCryptoPro\GatewayConnector\DataTransitGateway\obj\Release\net8.0\DataTransitGateway.AssemblyInfo.cs
+E:\TesCryptoPro\GatewayConnector\DataTransitGateway\obj\Release\net8.0\DataTransitGateway.csproj.CoreCompileInputs.cache
+E:\TesCryptoPro\GatewayConnector\DataTransitGateway\obj\Release\net8.0\DataTransitGateway.MvcApplicationPartsAssemblyInfo.cs
+E:\TesCryptoPro\GatewayConnector\DataTransitGateway\obj\Release\net8.0\DataTransitGateway.MvcApplicationPartsAssemblyInfo.cache

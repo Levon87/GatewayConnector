@@ -1,0 +1,60 @@
+version: '3.4'
+
+services:
+  datatransitgateway:
+    image: ${DOCKER_REGISTRY-}datatransitgateway
+    build:
+      context: .
+      dockerfile: DataTransitGateway/Dockerfile
+    networks:
+      - local
+    ports:
+      - '8080:8080'
+  
+  deviceclientservice:
+    image: ${DOCKER_REGISTRY-}deviceclientservice
+    build:
+      context: .
+      dockerfile: DeviceClientService/Dockerfile
+    networks:
+      - local
+
+  deviceserverservice:
+    image: ${DOCKER_REGISTRY-}deviceserverservice
+    build:
+      context: .
+      dockerfile: DeviceServerService/Dockerfile
+    networks:
+      - local
+
+  logstorageservice:
+    image: ${DOCKER_REGISTRY-}logstorageservice
+    build:
+      context: .
+      dockerfile: LogStorageService/Dockerfile
+    environment:
+      - ConnectionStrings__LogStorageDbContext=Server=postgres_db;Username=postgres;Port=5432;Password=sams2020;Database=Logs;Pooling=true
+    networks:
+      - local  
+    ports:
+       - "8000:8080"
+
+  postgres_db:
+    image: postgres:latest
+    restart: always
+    environment: 
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: samsonchik
+    ports:
+      - '5433:5432'
+    volumes: 
+      - postgres_db:/var/lib/postgresql/data
+    networks:
+      - local
+
+networks:
+  local:
+
+volumes: 
+  postgres_db:
+    driver: local

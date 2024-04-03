@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "datatransitgateway": "StartDebugging",
+        "deviceclientservice": "StartDebugging",
+        "deviceserverservice": "StartDebugging",
+        "logstorageservice": "StartDebugging",
+        "datatransferservice": "StartDebugging"
+      }
+    }
+  }
+}

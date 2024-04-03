@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "YiMugI8/ddXe+6XkwJ6pOFAg1uAmeC9hcfeYfQnmYgE=",
+  "Source": "DataTransitGateway",
+  "BasePath": "_content/DataTransitGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

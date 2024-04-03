@@ -1,0 +1,6 @@
+@LogStorageService_HostAddress = http://localhost:5206
+
+GET {{LogStorageService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WqZP6ERkFjnqnFA969OcYFa9Yh9PGi6sP9+5OdMIY4g=",
+  "Source": "LogStorageService",
+  "BasePath": "_content/LogStorageService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
